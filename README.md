@@ -1,75 +1,135 @@
-# React + TypeScript + Vite
+# 📝 Blog Pessoal React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de **Blog Pessoal** desenvolvido em **React + TypeScript**, com foco em componentização, navegação entre páginas e boas práticas de desenvolvimento Front-end.
 
-Currently, two official plugins are available:
+A aplicação foi criada para praticar conceitos importantes do ecossistema React e preparar a integração com uma API Backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router DOM
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+* Página Home
+* Página de Login
+* Página de Cadastro
+* Navegação entre páginas
+* Componentes reutilizáveis
+* Navbar
+* Footer
+* Layout responsivo
+* Estrutura organizada por componentes e páginas
+* Preparação para integração com Backend
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Estrutura do projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+src/
+├── components/
+│   ├── navbar/
+│   │   └── Navbar.tsx
+│   └── footer/
+│       └── Footer.tsx
+│
+├── pages/
+│   ├── home/
+│   │   └── Home.tsx
+│   ├── login/
+│   │   └── Login.tsx
+│   └── cadastro/
+│       └── Cadastro.tsx
+│
+├── App.tsx
+├── main.tsx
+└── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧭 Rotas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Rota        | Página   |
+| ----------- | -------- |
+| `/`         | Home     |
+| `/login`    | Login    |
+| `/cadastro` | Cadastro |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📱 Responsividade
 
+A aplicação foi desenvolvida para funcionar em diferentes tamanhos de tela:
+
+* Smartphones
+* Tablets
+* Notebooks
+* Desktop
+
+## ▶️ Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/phcarneiro9/Blog_Pessoal_React_T85.git
 ```
+
+Entre na pasta do projeto:
+
+```bash
+cd Blog_Pessoal_React_T85
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute a aplicação:
+
+```bash
+npm run dev
+```
+
+Depois, abra no navegador o endereço informado pelo Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Build
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+Para visualizar o build:
+
+```bash
+npm run preview
+```
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido para praticar conceitos como:
+
+* Componentização
+* React Router DOM
+* TypeScript
+* Estruturação de páginas
+* Responsividade
+* Organização de código
+* Integração Front-end e Backend
+
+## 👨‍💻 Autor
+
+**Patrick Carneiro**
+
+GitHub: [phcarneiro9](https://github.com/phcarneiro9)
+
+---
+
+Desenvolvido durante o **Bootcamp Full Stack Java da Generation Brasil**.
+
