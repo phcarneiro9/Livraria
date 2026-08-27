@@ -1,82 +1,74 @@
-# 📝 Blog Pessoal React
+# 📚 Livraria
 
-Projeto de **Blog Pessoal** desenvolvido em **React + TypeScript**, com foco em componentização, navegação entre páginas e boas práticas de desenvolvimento Front-end.
+Projeto de uma **Livraria Online** desenvolvido com **React, TypeScript e Tailwind CSS**, com o objetivo de praticar a criação de interfaces modernas, componentização e navegação entre páginas utilizando React Router DOM.
 
-A aplicação foi criada para praticar conceitos importantes do ecossistema React e preparar a integração com uma API Backend.
+A aplicação apresenta uma interface para visualização de livros e categorias, organizada de forma simples e responsiva.
 
-## 🚀 Tecnologias utilizadas
+---
+
+## 🚀 Funcionalidades
+
+* Página inicial da Livraria
+* Listagem de produtos
+* Visualização de categorias
+* Navegação entre páginas
+* Componentes reutilizáveis
+* Navbar e Footer
+* Interface responsiva
+* Organização dos dados de produtos e categorias
+
+---
+
+## 💻 Tecnologias utilizadas
 
 * React
 * TypeScript
 * Vite
 * Tailwind CSS
 * React Router DOM
+* Phosphor Icons
+* HTML5
+* CSS3
 
-## ✨ Funcionalidades
+---
 
-* Página Home
-* Página de Login
-* Página de Cadastro
-* Navegação entre páginas
-* Componentes reutilizáveis
-* Navbar
-* Footer
-* Layout responsivo
-* Estrutura organizada por componentes e páginas
-* Preparação para integração com Backend
-
-## 📂 Estrutura do projeto
+## 📂 Estrutura do Projeto
 
 ```text
 src/
+├── assets/
 ├── components/
-│   ├── navbar/
-│   │   └── Navbar.tsx
-│   └── footer/
-│       └── Footer.tsx
-│
+├── data/
 ├── pages/
-│   ├── home/
-│   │   └── Home.tsx
-│   ├── login/
-│   │   └── Login.tsx
-│   └── cadastro/
-│       └── Cadastro.tsx
-│
 ├── App.tsx
-├── main.tsx
-└── index.css
+├── index.css
+└── main.tsx
 ```
 
-## 🧭 Rotas
+---
 
-| Rota        | Página   |
-| ----------- | -------- |
-| `/`         | Home     |
-| `/login`    | Login    |
-| `/cadastro` | Cadastro |
+## 🛣️ Rotas
 
-## 📱 Responsividade
+| Rota          | Página     |
+| ------------- | ---------- |
+| `/`           | Home       |
+| `/produtos`   | Produtos   |
+| `/categorias` | Categorias |
 
-A aplicação foi desenvolvida para funcionar em diferentes tamanhos de tela:
+---
 
-* Smartphones
-* Tablets
-* Notebooks
-* Desktop
-
-## ▶️ Como executar
+## ▶️ Como executar o projeto
 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/phcarneiro9/Blog_Pessoal_React_T85.git
+git clone https://github.com/phcarneiro9/Livraria.git
 ```
 
-Entre na pasta do projeto:
+Entre na pasta:
 
 ```bash
-cd Blog_Pessoal_React_T85
+cd Livraria
 ```
 
 Instale as dependências:
@@ -85,51 +77,48 @@ Instale as dependências:
 npm install
 ```
 
-Execute a aplicação:
+Execute o projeto:
 
 ```bash
 npm run dev
 ```
 
-Depois, abra no navegador o endereço informado pelo Vite, normalmente:
+Depois, acesse o endereço exibido pelo Vite no terminal.
+
+Normalmente:
 
 ```text
-http://localhost:5173
+http://localhost:5173/
 ```
 
-## 📦 Build
+---
 
-Para gerar a versão de produção:
+## 📱 Responsividade
 
-```bash
-npm run build
-```
+A aplicação utiliza **Tailwind CSS** para estilização e adaptação da interface em diferentes tamanhos de tela.
 
-Para visualizar o build:
-
-```bash
-npm run preview
-```
+---
 
 ## 🎯 Objetivo
 
-Este projeto foi desenvolvido para praticar conceitos como:
+O projeto foi desenvolvido para colocar em prática conceitos fundamentais do desenvolvimento Front-end com React, incluindo:
 
 * Componentização
-* React Router DOM
+* Props
+* Rotas
+* Organização de dados
+* Estilização com Tailwind CSS
 * TypeScript
-* Estruturação de páginas
 * Responsividade
-* Organização de código
-* Integração Front-end e Backend
 
-## 👨‍💻 Autor
+---
+
+## 👨‍💻 Desenvolvedor
 
 **Patrick Carneiro**
 
-GitHub: [phcarneiro9](https://github.com/phcarneiro9)
+GitHub: https://github.com/phcarneiro9
 
----
 
 Desenvolvido durante o **Bootcamp Full Stack Java da Generation Brasil**.
 
