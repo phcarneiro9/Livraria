@@ -1,38 +1,27 @@
 # 📚 Livraria
 
-Projeto de uma **Livraria Online** desenvolvido com **React, TypeScript e Tailwind CSS**, com o objetivo de praticar a criação de interfaces modernas, componentização e navegação entre páginas utilizando React Router DOM.
+Interface de uma **livraria online** desenvolvida com React, TypeScript e Tailwind CSS, com foco em componentização, navegação e responsividade.
 
-A aplicação apresenta uma interface para visualização de livros e categorias, organizada de forma simples e responsiva.
+## ✨ Funcionalidades
 
----
+- Página inicial
+- Listagem de livros
+- Categorias
+- Navegação entre páginas
+- Componentes reutilizáveis
+- Navbar e Footer
+- Layout responsivo
 
-## 🚀 Funcionalidades
+## 🛠️ Tecnologias
 
-* Página inicial da Livraria
-* Listagem de produtos
-* Visualização de categorias
-* Navegação entre páginas
-* Componentes reutilizáveis
-* Navbar e Footer
-* Interface responsiva
-* Organização dos dados de produtos e categorias
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Phosphor Icons
 
----
-
-## 💻 Tecnologias utilizadas
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* React Router DOM
-* Phosphor Icons
-* HTML5
-* CSS3
-
----
-
-## 📂 Estrutura do Projeto
+## 📂 Estrutura
 
 ```text
 src/
@@ -45,80 +34,23 @@ src/
 └── main.tsx
 ```
 
----
-
-## 🛣️ Rotas
-
-| Rota          | Página     |
-| ------------- | ---------- |
-| `/`           | Home       |
-| `/produtos`   | Produtos   |
-| `/categorias` | Categorias |
-
----
-
-## ▶️ Como executar o projeto
-
-Clone o repositório:
+## ▶️ Como executar
 
 ```bash
 git clone https://github.com/phcarneiro9/Livraria.git
-```
-
-Entre na pasta:
-
-```bash
 cd Livraria
-```
-
-Instale as dependências:
-
-```bash
 npm install
-```
-
-Execute o projeto:
-
-```bash
 npm run dev
 ```
 
-Depois, acesse o endereço exibido pelo Vite no terminal.
-
-Normalmente:
-
-```text
-http://localhost:5173/
-```
-
----
-
-## 📱 Responsividade
-
-A aplicação utiliza **Tailwind CSS** para estilização e adaptação da interface em diferentes tamanhos de tela.
-
----
+A aplicação será executada pelo Vite, normalmente em `http://localhost:5173`.
 
 ## 🎯 Objetivo
 
-O projeto foi desenvolvido para colocar em prática conceitos fundamentais do desenvolvimento Front-end com React, incluindo:
+Praticar **React, TypeScript, componentização, roteamento, Tailwind CSS e responsividade**.
 
-* Componentização
-* Props
-* Rotas
-* Organização de dados
-* Estilização com Tailwind CSS
-* TypeScript
-* Responsividade
-
----
-
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Autor
 
 **Patrick Carneiro**
 
-GitHub: https://github.com/phcarneiro9
-
-
-Desenvolvido durante o **Bootcamp Full Stack Java da Generation Brasil**.
-
+[GitHub](https://github.com/phcarneiro9)
